@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Garamond, serif;
+    color: aliceblue;
+    background-image:url(fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1b1e25;
+    background-attachment: fixed;
+}
+.title {
+    color: #E0E0E0 ;
+    text-align: center;
+    padding: 3rem;
+}
+.mainaside {
+    display: inline-flex;
+    justify-content: left;
+}
+.image-profile {
+  display:inline-flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 100%;
+  width: 150px;
+  height: 200px;  
+}
+#experiencia_laboral {
+    text-align: center;
+    background-color: #37444c;
+}
+.experiencia {
+ display: block;
+ text-align: center;
+ background-color: #375059;
+}
+.estudios {
+    display: block;
+    text-align: center;
+    background-color: #37444c;
+}
+.skills {
+    display: block;
+    text-align: center;
+    background-color: #375059;
+    list-style: none;
+}
+.footer {
+    display: block;
+    text-align: right;
+    align-items:end;    
+}
+.profile-description {
+    display: block;
+    text-align: center;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #375059 
+}

@@ -1,0 +1,35 @@
+body {
+    background-color:#333533;
+    color: #9fcdf8;
+    font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+#poster {
+width: 400px;
+height: 175px;
+}
+
+#maintitle {
+    color: blueviolet;
+    text-align: center;
+}
+
+.subtitles {
+    color:deeppink;
+}
+
+.description {
+    color:khaki;
+}
+
+.underline {
+    color:crimson;
+    font-size: 40px;
+}
+
+.boldname {
+    color:mediumspringgreen;
+    background-color:black;
+}
