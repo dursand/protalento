@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <form id="formulario" onsubmit="handleSubmit(event)">
+
+            <div class="empleados">
+                <label for="opcion">Selecciona un Empleado</label>
+                <select id="opcion">
+                    <option value="defecto">Selecciona</option>
+                    <option value="opcion1">Juana</option>
+                    <option value="opcion2">Pedro</option>
+                </select>
+            </div>
+
+            <div id="productos">
+                <h4>Ingresa la cantidad</h4>
+                <label>Agua: </label>
+                <input type="number" id="producto1" value="producto1" />
+
+                <label>Emocion: </label>
+                <input type="number" id="producto2" />
+
+                <label>Alegria: </label>
+                <input type="number" id="producto3" />
+
+                <label>Frescura: </label>
+                <input type="number" id="producto4" />
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <div class="resultados">
+            <p>Cantidad de productos vendidos</p>
+            <span class="productosVendidos"></span>
+            <p>Suma total de dinero</p>
+            <span class="sumaDinero"></span>
+            <p>Empleado del mes</p>
+            <span class="empleadoMes"></span>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

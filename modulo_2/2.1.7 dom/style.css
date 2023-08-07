@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 120%;
+    height: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-right: 5px solid black;
+}
+
+.empleados {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.empleados label {
+    font-size: 1.8rem;
+
+}
+
+.empleados #opcion {
+    background-color: rgba(255, 255, 255, 0.523);
+    border: none;
+    font-size: 14pt;
+    padding: 10px 20px;
+    outline: none;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+form #productos {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+    font-size: 1.2rem;
+
+}
+
+#productos h4 {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+#productos input {
+    background-color: #f3f3f4b9;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 12pt;
+    width: 100%;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+#productos input:hover,
+#productos input:focus {
+    background-color: white;
+    box-shadow: 0 0 2px #ff93f6;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 10rem;
+}
+
+form button:hover {
+    background-color: #111;
+}
+
+.resultados {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.resultados p {
+    font-size: 1.5rem;
+}
+
+.resultados span {
+    background-color: #f3f3f4b9;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 12pt;
+    width: 100%;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+    height: 3rem;
+}
