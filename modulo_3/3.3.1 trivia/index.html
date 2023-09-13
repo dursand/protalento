@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Trivias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Generador de Trivias</h1>
+
+    <div class="config-section">
+        <label for="category">Categoría:</label>
+        <select id="category"></select>
+        
+        <label for="difficulty">Dificultad:</label>
+        <select id="difficulty">
+            <option value="easy">Fácil</option>
+            <option value="medium">Medio</option>
+            <option value="hard">Difícil</option>
+        </select>
+
+        <label for="type">Tipo de respuesta:</label>
+        <select id="type">
+            <option value="multiple">Múltiple</option>
+            <option value="boolean">Verdadero/Falso</option>
+        </select>
+
+        <button id="generate">Generar Trivia</button>
+    </div>
+
+    <div class="trivia-section">
+        <h2>Trivia</h2>
+        <div id="questions"></div>
+        <button id="submit">Enviar Respuestas</button>
+        <p id="score">Puntaje: <span id="score-value">0</span></p>
+    </div>
+
+    <button id="new-trivia" style="display: none;">Crear una nueva trivia</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
